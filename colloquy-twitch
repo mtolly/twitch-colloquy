@@ -1,0 +1,82 @@
+#!/usr/bin/env ruby
+
+require 'json'
+require 'fileutils'
+
+jsons = ARGV[0..-2].map { |json| JSON.parse(File.read(json)) }
+dir = ARGV[-1]
+template = jsons[0]['template']['small']
+emotes = {}
+jsons.each do |json|
+  if json.has_key?('emotes')
+    json['emotes'].each_pair do |k, v|
+      emotes[k] = v
+    end
+  else
+    json['channels'].each_value do |chan|
+      chan['emotes'].each do |v|
+        emotes[v['code']] = v
+      end
+    end
+  end
+end
+
+FileUtils.mkdir_p("#{dir}/Contents/Resources")
+
+emoticonsCSS = "
+.emoticon samp {
+  display: none;
+}
+
+.emoticon:after {
+  vertical-align: -25%;
+}
+
+"
+emotes.each_pair do |k, v|
+emoticonsCSS += ".emoticon.#{k}:after {
+  content: url( \"#{k}.png\" );
+}
+"
+end
+File.write("#{dir}/Contents/Resources/emoticons.css", emoticonsCSS)
+
+emoticonsPlist = "{\n"
+emotes.each_pair do |k, v|
+  emoticonsPlist += "    #{k} = (\"#{k}\");\n"
+end
+emoticonsPlist += "}\n"
+File.write("#{dir}/Contents/Resources/emoticons.plist", emoticonsPlist)
+
+menuPlist = "(\n"
+emotes.each_pair do |k, v|
+  menuPlist += "    {name = \"#{k}\"; image = \"#{k}.png\"; insert = \"#{k}\";},\n"
+end
+menuPlist += ")\n"
+File.write("#{dir}/Contents/Resources/menu.plist", menuPlist)
+
+File.write("#{dir}/Contents/Info.plist", <<EOS
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>English</string>
+  <key>CFBundleGetInfoString</key>
+  <string>Twitch Colloquy Chat Emoticons</string>
+  <key>CFBundleIdentifier</key>
+  <string>cc.javelin.colloquy.emoticons.twitcht</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>Twitch</string>
+  <key>CFBundlePackageType</key>
+  <string>coEm</string>
+</dict>
+</plist>
+EOS
+)
+
+emotes.each_pair do |k, v|
+  `wget "#{template.gsub('{image_id}', v['image_id'].to_s)}" -O "#{dir}/Contents/Resources/#{k}.png"`
+end

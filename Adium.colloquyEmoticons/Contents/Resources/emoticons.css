@@ -1,0 +1,71 @@
+.emoticon samp {
+	display: none;
+}
+
+.emoticon:after {
+	vertical-align: -25%;
+}
+
+.emoticon.angry:after {
+	content: url( "angry.png" );
+}
+
+.emoticon.blush:after {
+	content: url( "blush.png" );
+}
+
+.emoticon.cry:after {
+	content: url( "cry.png" );
+}
+
+.emoticon.footmouth:after {
+	content: url( "footmouth.png" );
+}
+
+.emoticon.frown:after {
+	content: url( "frown.png" );
+}
+
+.emoticon.suprised:after {
+	content: url( "gasp.png" );
+}
+
+.emoticon.happy:after {
+	content: url( "laugh.png" );
+}
+
+.emoticon.angel:after {
+	content: url( "innocent.png" );
+}
+
+.emoticon.kiss:after {
+	content: url( "kiss.png" );
+}
+
+.emoticon.lips:after {
+	content: url( "lips.png" );
+}
+
+.emoticon.money:after {
+	content: url( "money.png" );
+}
+
+.emoticon.smile:after {
+	content: url( "smile.png" );
+}
+
+.emoticon.razz:after {
+	content: url( "yuck.png" );
+}
+
+.emoticon.undecided:after {
+	content: url( "slant.png" );
+}
+
+.emoticon.cool:after {
+	content: url( "cool.png" );
+}
+
+.emoticon.wink:after {
+	content: url( "wink.png" );
+}

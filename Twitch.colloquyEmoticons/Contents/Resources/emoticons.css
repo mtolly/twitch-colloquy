@@ -1,0 +1,477 @@
+
+.emoticon samp {
+  display: none;
+}
+
+.emoticon:after {
+  vertical-align: -25%;
+}
+
+.emoticon.4Head:after {
+  content: url( "4Head.png" );
+}
+.emoticon.AMPEnergy:after {
+  content: url( "AMPEnergy.png" );
+}
+.emoticon.AMPEnergyCherry:after {
+  content: url( "AMPEnergyCherry.png" );
+}
+.emoticon.ANELE:after {
+  content: url( "ANELE.png" );
+}
+.emoticon.ArgieB8:after {
+  content: url( "ArgieB8.png" );
+}
+.emoticon.ArsonNoSexy:after {
+  content: url( "ArsonNoSexy.png" );
+}
+.emoticon.AsianGlow:after {
+  content: url( "AsianGlow.png" );
+}
+.emoticon.AthenaPMS:after {
+  content: url( "AthenaPMS.png" );
+}
+.emoticon.BabyRage:after {
+  content: url( "BabyRage.png" );
+}
+.emoticon.BatChest:after {
+  content: url( "BatChest.png" );
+}
+.emoticon.BCouch:after {
+  content: url( "BCouch.png" );
+}
+.emoticon.BCWarrior:after {
+  content: url( "BCWarrior.png" );
+}
+.emoticon.BibleThump:after {
+  content: url( "BibleThump.png" );
+}
+.emoticon.BiersDerp:after {
+  content: url( "BiersDerp.png" );
+}
+.emoticon.BigBrother:after {
+  content: url( "BigBrother.png" );
+}
+.emoticon.BionicBunion:after {
+  content: url( "BionicBunion.png" );
+}
+.emoticon.BlargNaut:after {
+  content: url( "BlargNaut.png" );
+}
+.emoticon.bleedPurple:after {
+  content: url( "bleedPurple.png" );
+}
+.emoticon.BloodTrail:after {
+  content: url( "BloodTrail.png" );
+}
+.emoticon.BORT:after {
+  content: url( "BORT.png" );
+}
+.emoticon.BrainSlug:after {
+  content: url( "BrainSlug.png" );
+}
+.emoticon.BrokeBack:after {
+  content: url( "BrokeBack.png" );
+}
+.emoticon.BudBlast:after {
+  content: url( "BudBlast.png" );
+}
+.emoticon.BuddhaBar:after {
+  content: url( "BuddhaBar.png" );
+}
+.emoticon.BudStar:after {
+  content: url( "BudStar.png" );
+}
+.emoticon.ChefFrank:after {
+  content: url( "ChefFrank.png" );
+}
+.emoticon.cmonBruh:after {
+  content: url( "cmonBruh.png" );
+}
+.emoticon.CoolCat:after {
+  content: url( "CoolCat.png" );
+}
+.emoticon.CorgiDerp:after {
+  content: url( "CorgiDerp.png" );
+}
+.emoticon.CougarHunt:after {
+  content: url( "CougarHunt.png" );
+}
+.emoticon.DAESuppy:after {
+  content: url( "DAESuppy.png" );
+}
+.emoticon.DalLOVE:after {
+  content: url( "DalLOVE.png" );
+}
+.emoticon.DansGame:after {
+  content: url( "DansGame.png" );
+}
+.emoticon.DatSheffy:after {
+  content: url( "DatSheffy.png" );
+}
+.emoticon.DBstyle:after {
+  content: url( "DBstyle.png" );
+}
+.emoticon.deExcite:after {
+  content: url( "deExcite.png" );
+}
+.emoticon.deIlluminati:after {
+  content: url( "deIlluminati.png" );
+}
+.emoticon.DendiFace:after {
+  content: url( "DendiFace.png" );
+}
+.emoticon.DogFace:after {
+  content: url( "DogFace.png" );
+}
+.emoticon.DOOMGuy:after {
+  content: url( "DOOMGuy.png" );
+}
+.emoticon.duDudu:after {
+  content: url( "duDudu.png" );
+}
+.emoticon.EagleEye:after {
+  content: url( "EagleEye.png" );
+}
+.emoticon.EleGiggle:after {
+  content: url( "EleGiggle.png" );
+}
+.emoticon.FailFish:after {
+  content: url( "FailFish.png" );
+}
+.emoticon.FPSMarksman:after {
+  content: url( "FPSMarksman.png" );
+}
+.emoticon.FrankerZ:after {
+  content: url( "FrankerZ.png" );
+}
+.emoticon.FreakinStinkin:after {
+  content: url( "FreakinStinkin.png" );
+}
+.emoticon.FUNgineer:after {
+  content: url( "FUNgineer.png" );
+}
+.emoticon.FunRun:after {
+  content: url( "FunRun.png" );
+}
+.emoticon.FutureMan:after {
+  content: url( "FutureMan.png" );
+}
+.emoticon.FuzzyOtterOO:after {
+  content: url( "FuzzyOtterOO.png" );
+}
+.emoticon.GingerPower:after {
+  content: url( "GingerPower.png" );
+}
+.emoticon.GrammarKing:after {
+  content: url( "GrammarKing.png" );
+}
+.emoticon.HassaanChop:after {
+  content: url( "HassaanChop.png" );
+}
+.emoticon.HassanChop:after {
+  content: url( "HassanChop.png" );
+}
+.emoticon.HeyGuys:after {
+  content: url( "HeyGuys.png" );
+}
+.emoticon.HotPokket:after {
+  content: url( "HotPokket.png" );
+}
+.emoticon.HumbleLife:after {
+  content: url( "HumbleLife.png" );
+}
+.emoticon.ItsBoshyTime:after {
+  content: url( "ItsBoshyTime.png" );
+}
+.emoticon.Jebaited:after {
+  content: url( "Jebaited.png" );
+}
+.emoticon.JKanStyle:after {
+  content: url( "JKanStyle.png" );
+}
+.emoticon.JonCarnage:after {
+  content: url( "JonCarnage.png" );
+}
+.emoticon.KAPOW:after {
+  content: url( "KAPOW.png" );
+}
+.emoticon.Kappa:after {
+  content: url( "Kappa.png" );
+}
+.emoticon.KappaClaus:after {
+  content: url( "KappaClaus.png" );
+}
+.emoticon.KappaPride:after {
+  content: url( "KappaPride.png" );
+}
+.emoticon.KappaRoss:after {
+  content: url( "KappaRoss.png" );
+}
+.emoticon.KappaWealth:after {
+  content: url( "KappaWealth.png" );
+}
+.emoticon.Keepo:after {
+  content: url( "Keepo.png" );
+}
+.emoticon.KevinTurtle:after {
+  content: url( "KevinTurtle.png" );
+}
+.emoticon.Kippa:after {
+  content: url( "Kippa.png" );
+}
+.emoticon.Kreygasm:after {
+  content: url( "Kreygasm.png" );
+}
+.emoticon.Mau5:after {
+  content: url( "Mau5.png" );
+}
+.emoticon.mcaT:after {
+  content: url( "mcaT.png" );
+}
+.emoticon.MikeHogu:after {
+  content: url( "MikeHogu.png" );
+}
+.emoticon.MingLee:after {
+  content: url( "MingLee.png" );
+}
+.emoticon.MrDestructoid:after {
+  content: url( "MrDestructoid.png" );
+}
+.emoticon.MVGame:after {
+  content: url( "MVGame.png" );
+}
+.emoticon.NinjaTroll:after {
+  content: url( "NinjaTroll.png" );
+}
+.emoticon.NomNom:after {
+  content: url( "NomNom.png" );
+}
+.emoticon.NoNoSpot:after {
+  content: url( "NoNoSpot.png" );
+}
+.emoticon.NotATK:after {
+  content: url( "NotATK.png" );
+}
+.emoticon.NotLikeThis:after {
+  content: url( "NotLikeThis.png" );
+}
+.emoticon.OhMyDog:after {
+  content: url( "OhMyDog.png" );
+}
+.emoticon.OMGScoots:after {
+  content: url( "OMGScoots.png" );
+}
+.emoticon.OneHand:after {
+  content: url( "OneHand.png" );
+}
+.emoticon.OpieOP:after {
+  content: url( "OpieOP.png" );
+}
+.emoticon.OptimizePrime:after {
+  content: url( "OptimizePrime.png" );
+}
+.emoticon.OSfrog:after {
+  content: url( "OSfrog.png" );
+}
+.emoticon.OSkomodo:after {
+  content: url( "OSkomodo.png" );
+}
+.emoticon.OSsloth:after {
+  content: url( "OSsloth.png" );
+}
+.emoticon.panicBasket:after {
+  content: url( "panicBasket.png" );
+}
+.emoticon.PanicVis:after {
+  content: url( "PanicVis.png" );
+}
+.emoticon.PartyTime:after {
+  content: url( "PartyTime.png" );
+}
+.emoticon.PazPazowitz:after {
+  content: url( "PazPazowitz.png" );
+}
+.emoticon.PeoplesChamp:after {
+  content: url( "PeoplesChamp.png" );
+}
+.emoticon.PermaSmug:after {
+  content: url( "PermaSmug.png" );
+}
+.emoticon.PeteZaroll:after {
+  content: url( "PeteZaroll.png" );
+}
+.emoticon.PeteZarollTie:after {
+  content: url( "PeteZarollTie.png" );
+}
+.emoticon.PicoMause:after {
+  content: url( "PicoMause.png" );
+}
+.emoticon.PipeHype:after {
+  content: url( "PipeHype.png" );
+}
+.emoticon.PJSalt:after {
+  content: url( "PJSalt.png" );
+}
+.emoticon.PMSTwin:after {
+  content: url( "PMSTwin.png" );
+}
+.emoticon.PogChamp:after {
+  content: url( "PogChamp.png" );
+}
+.emoticon.Poooound:after {
+  content: url( "Poooound.png" );
+}
+.emoticon.PraiseIt:after {
+  content: url( "PraiseIt.png" );
+}
+.emoticon.PRChase:after {
+  content: url( "PRChase.png" );
+}
+.emoticon.PunchTrees:after {
+  content: url( "PunchTrees.png" );
+}
+.emoticon.PuppeyFace:after {
+  content: url( "PuppeyFace.png" );
+}
+.emoticon.RaccAttack:after {
+  content: url( "RaccAttack.png" );
+}
+.emoticon.RalpherZ:after {
+  content: url( "RalpherZ.png" );
+}
+.emoticon.RedCoat:after {
+  content: url( "RedCoat.png" );
+}
+.emoticon.ResidentSleeper:after {
+  content: url( "ResidentSleeper.png" );
+}
+.emoticon.riPepperonis:after {
+  content: url( "riPepperonis.png" );
+}
+.emoticon.RitzMitz:after {
+  content: url( "RitzMitz.png" );
+}
+.emoticon.RuleFive:after {
+  content: url( "RuleFive.png" );
+}
+.emoticon.SeemsGood:after {
+  content: url( "SeemsGood.png" );
+}
+.emoticon.ShadyLulu:after {
+  content: url( "ShadyLulu.png" );
+}
+.emoticon.ShazBotstix:after {
+  content: url( "ShazBotstix.png" );
+}
+.emoticon.ShibeZ:after {
+  content: url( "ShibeZ.png" );
+}
+.emoticon.SmoocherZ:after {
+  content: url( "SmoocherZ.png" );
+}
+.emoticon.SMOrc:after {
+  content: url( "SMOrc.png" );
+}
+.emoticon.SMSkull:after {
+  content: url( "SMSkull.png" );
+}
+.emoticon.SoBayed:after {
+  content: url( "SoBayed.png" );
+}
+.emoticon.SoonerLater:after {
+  content: url( "SoonerLater.png" );
+}
+.emoticon.SriHead:after {
+  content: url( "SriHead.png" );
+}
+.emoticon.SSSsss:after {
+  content: url( "SSSsss.png" );
+}
+.emoticon.StinkyCheese:after {
+  content: url( "StinkyCheese.png" );
+}
+.emoticon.StoneLightning:after {
+  content: url( "StoneLightning.png" );
+}
+.emoticon.StrawBeary:after {
+  content: url( "StrawBeary.png" );
+}
+.emoticon.SuperVinlin:after {
+  content: url( "SuperVinlin.png" );
+}
+.emoticon.SwiftRage:after {
+  content: url( "SwiftRage.png" );
+}
+.emoticon.TBCheesePull:after {
+  content: url( "TBCheesePull.png" );
+}
+.emoticon.TBTacoLeft:after {
+  content: url( "TBTacoLeft.png" );
+}
+.emoticon.TBTacoRight:after {
+  content: url( "TBTacoRight.png" );
+}
+.emoticon.TF2John:after {
+  content: url( "TF2John.png" );
+}
+.emoticon.TheRinger:after {
+  content: url( "TheRinger.png" );
+}
+.emoticon.TheTarFu:after {
+  content: url( "TheTarFu.png" );
+}
+.emoticon.TheThing:after {
+  content: url( "TheThing.png" );
+}
+.emoticon.ThunBeast:after {
+  content: url( "ThunBeast.png" );
+}
+.emoticon.TinyFace:after {
+  content: url( "TinyFace.png" );
+}
+.emoticon.TooSpicy:after {
+  content: url( "TooSpicy.png" );
+}
+.emoticon.TriHard:after {
+  content: url( "TriHard.png" );
+}
+.emoticon.TTours:after {
+  content: url( "TTours.png" );
+}
+.emoticon.twitchRaid:after {
+  content: url( "twitchRaid.png" );
+}
+.emoticon.UleetBackup:after {
+  content: url( "UleetBackup.png" );
+}
+.emoticon.UncleNox:after {
+  content: url( "UncleNox.png" );
+}
+.emoticon.UnSane:after {
+  content: url( "UnSane.png" );
+}
+.emoticon.VaultBoy:after {
+  content: url( "VaultBoy.png" );
+}
+.emoticon.VoHiYo:after {
+  content: url( "VoHiYo.png" );
+}
+.emoticon.Volcania:after {
+  content: url( "Volcania.png" );
+}
+.emoticon.WholeWheat:after {
+  content: url( "WholeWheat.png" );
+}
+.emoticon.WinWaker:after {
+  content: url( "WinWaker.png" );
+}
+.emoticon.WTRuck:after {
+  content: url( "WTRuck.png" );
+}
+.emoticon.WutFace:after {
+  content: url( "WutFace.png" );
+}
+.emoticon.YouWHY:after {
+  content: url( "YouWHY.png" );
+}
